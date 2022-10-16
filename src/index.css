@@ -1,0 +1,65 @@
+body {
+		background: url(../public/img/background.jpeg);
+		background-size:  cover;
+		align-content: normal;
+		align-items: normal;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		height: 100vh;
+		justify-content: flex-start;
+		margin: 0px;
+		width: 100vw;
+		}
+
+header {
+		font-family: Arial;
+		color: #bcc2c1;
+		font-size: 50px;
+		margin: 255px 0 0 117px;
+		letter-spacing: 7px;
+		}
+
+.gradient-button {
+		text-decoration: none;
+		display: inline-block;
+		color: rgb(0, 0, 0);
+		padding: 15px 10px;
+		margin: 10px 120px;
+		border-radius: 10px;
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		background-image: linear-gradient(to right, #bcc2c1 0%, #1e1d1e 51%, #dfdfdf 100%);
+		background-size: 200% auto;
+		box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+		transition: .5s;
+		border: 0px;
+		}
+
+.gradient-button:hover {
+		background-position: right center;
+		}
+
+audio {
+		width: 100px;
+		height: 20px;
+		margin: 0 0 0 120px;
+		color: #36363682;
+
+}
+
+
+.body-unused {
+		margin: 0;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		}
+
+code {
+		font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+		}
